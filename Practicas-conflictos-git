@@ -10,5 +10,5 @@ git pull origin main
 git merge feature/tarea-conflicto
 <<<<<<< HEAD
 Este es el mensaje de Esli.
-=======
+vamos a resolver la tarea en pareja
 Este es el mensaje combinado de Esli y su josune.
