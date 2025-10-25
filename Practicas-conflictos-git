@@ -1,0 +1,14 @@
+git clone https://github.com/esli/practica-conflictos-git.git
+cd practica-conflictos-git
+git checkout -b feature/tarea-conflicto
+es el mensaje de Esli.
+git add mensaje.txt
+git commit -m "Tarea"
+git push origin feature/tarea-conflicto
+git checkout main
+git pull origin main
+git merge feature/tarea-conflicto
+<<<<<<< HEAD
+Este es el mensaje de Esli.
+=======
+Este es el mensaje combinado de Esli y su josune.
