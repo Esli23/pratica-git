@@ -1,0 +1,7 @@
+git checkout -b nuestro primer proyecto
+git add .
+git commit -m "trabjo en equipo"
+git push origin nuestro-priemer-proyecto"
+git remote add upstream https://github.com/ORIGINAL/REPO.git
+git fetch upstream
+git merge upstream/main
